@@ -151,11 +151,20 @@ ul { list-style: none; margin: 0; padding: 0; }
   height: 76px;
 }
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   font-size: 21px;
   color: var(--white);
   letter-spacing: 0.3px;
+}
+.logo-img {
+  height: 38px;
+  width: 38px;
+  object-fit: contain;
+  border-radius: 50%;
 }
 .logo span { color: var(--gold); }
 
@@ -210,7 +219,7 @@ ul { list-style: none; margin: 0; padding: 0; }
   display: flex;
   align-items: center;
   background: linear-gradient(180deg, rgba(17,17,17,0.72), rgba(17,17,17,0.55) 55%, rgba(17,17,17,0.85)),
-              url('https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?q=80&w=1800&auto=format&fit=crop') center/cover no-repeat;
+              url('images/hero.jpg') center/cover no-repeat;
   color: var(--white);
 }
 .hero-inner { max-width: 680px; }
